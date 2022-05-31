@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    background-image: url(b.jpeg);
+}
+
+.profile img {
+    height: 450px;
+    padding: 0px 370px;
+}
+
+.profile h1 {
+    margin: 0px 250px 0px 240px;
+    padding: 30px 0px;
+    font-family: 'Tapestry', cursive;
+    justify-content: center;
+    text-align: center;
+}
+
+.biodata h1 {
+    font-size: 70px;
+    color: rgb(57, 51, 59);
+    margin-left: 75px;
+}
+
+#table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+#table td, #table th {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#table th {
+    color: brown;
+}
+
+.inanutshell img {
+    margin-left: 0px;
+    width: 600px;
+    margin-bottom: 70px;
+    margin-top: 73;
+}
+
+.inanutshell h1 {
+    font-size: 70px;
+    color: rgb(57, 51, 59);
+    margin-left: 50px;
+}
+
+.biodata {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: url(bgh.jpg);
+    padding-bottom: 40px;
+}
+
+p{
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 0px 253px;
+    font-family: 'Tapestry', cursive;
+    color: rgb(5, 5, 61);
+}
+
+.quote{
+    background-image: url(b.jpeg);
+    padding-top: 40px;
+}
